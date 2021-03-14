@@ -206,6 +206,7 @@ img {
 .modal-btn:active {
   background-color: var(bckg-button-color);
   color: var(--main-lite-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero {
@@ -395,7 +396,7 @@ img {
 }
 
 .development-list-link:hover > .development-icon,
-.development-list-link:hover > .development-icon,
+.development-list-link:focus > .development-icon,
 .development-list-link:hover,
 .development-list-link:focus {
   background-color: var(--accent-color);
@@ -456,7 +457,7 @@ img {
 }
 
 .customers-list-link:hover > .customers-icon,
-.customers-list-link:hover > .customers-icon {
+.customers-list-link:focus > .customers-icon {
   fill: var(--accent-color);
 }
 
@@ -656,7 +657,7 @@ b {
 }
 
 .footer-list-link:hover > .footer-icon,
-.footer-list-link:hover > .footer-icon,
+.footer-list-link:focus > .footer-icon,
 .footer-list-link:hover,
 .footer-list-link:focus {
   background-color: var(--accent-color);
