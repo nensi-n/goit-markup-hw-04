@@ -485,7 +485,7 @@ img {
   color: var(--main-lite-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid transparent;
+  border: 1px solid var(--accent-color);
 }
 
 .portfolio-btn-list {
@@ -627,6 +627,10 @@ b {
   padding-top: 72px;
   padding-bottom: 100px;
   min-width: 206px;
+}
+
+.footer-item-icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-list-icon {
