@@ -588,7 +588,7 @@ footer {
 }
 
 .contact-list-link:hover,
-.сontact-list-link:focus {
+.contact-list-link:focus {
   color: var(--accent-color);
 }
 
