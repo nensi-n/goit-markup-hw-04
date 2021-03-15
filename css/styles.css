@@ -541,6 +541,8 @@ img {
 
 footer {
   background: var(--background-section-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -552,11 +554,6 @@ footer {
   color: var(--accent-color);
   display: inline-block;
   margin-bottom: 20px;
-}
-
-.logo-light-letters,
-.contact-list-link-address {
-  color: var(--main-lite-color);
 }
 
 .contact-list-link {
@@ -578,9 +575,7 @@ footer {
 
 .main-footer-container {
   display: flex;
-  align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  align-items: baseline
 }
 
 .container-footer-address {
@@ -614,7 +609,9 @@ b {
   margin-top: 20px;
 }
 
-.footer-icon {
+.footer-icon,
+.contact-list-link-address,
+.logo-light-letters {
   color: var(--main-lite-color);
   fill: currentColor;
 }
